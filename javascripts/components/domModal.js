@@ -2,7 +2,7 @@ import { cartTotal } from './total.js';
 import { getCart, emptyCart } from './../helpers/data/cartData.js';
 
 const makeCartModal = () => {
-  $("#cart").html(` 
+  $("#cart-modal").html(` 
         <div class="modal fade" id="buy-modal" tabindex="-1" role="dialog" aria-labelledby="buy-modalLabel" aria-hidden="true">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
